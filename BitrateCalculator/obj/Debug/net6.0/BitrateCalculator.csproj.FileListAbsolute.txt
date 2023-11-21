@@ -87,3 +87,4 @@ D:\Users\WindowsPro\Desktop\Finance task test\BitrateCalculator\BitrateCalculato
 D:\Users\WindowsPro\Desktop\Finance task test\BitrateCalculator\BitrateCalculator\obj\Debug\net6.0\ref\BitrateCalculator.dll
 D:\Users\WindowsPro\Desktop\Finance task test\BitrateCalculator\BitrateCalculator\bin\Debug\net6.0\AutoMapper.dll
 D:\Users\WindowsPro\Desktop\Finance task test\BitrateCalculator\BitrateCalculator\bin\Debug\net6.0\AutoMapper.Extensions.Microsoft.DependencyInjection.dll
+D:\Users\WindowsPro\Desktop\Finance task test\BitrateCalculator\BitrateCalculator\bin\Debug\net6.0\Newtonsoft.Json.dll

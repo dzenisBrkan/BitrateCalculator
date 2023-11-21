@@ -9,6 +9,6 @@ public class NIC
     public string Description { get; set; }
     public string MAC { get; set; }
     public DateTime Timestamp { get; set; }
-    public string Rx { get; set; }
-    public string Tx { get; set; }
+    public long Rx { get; set; }
+    public long Tx { get; set; }
 }

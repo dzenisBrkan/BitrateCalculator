@@ -3,6 +3,7 @@ using BitrateCalculator.Data;
 using BitrateCalculator.Models;
 using BitrateCalculator.Services.Interface;
 using Microsoft.EntityFrameworkCore;
+using Newtonsoft.Json;
 
 namespace BitrateCalculator.Services;
 
@@ -25,23 +26,23 @@ public class Bitrate : IBitrate
         return returnData;
     }
 
-    public Transcoder AddVideo(string json)
+    public Transcoder UploadVideo(string json)
     {
-        //    var data = JsonConvert.DeserializeObject<Video>(json);
+        //parsing the JSON
+        var data = JsonConvert.DeserializeObject<Transcoder>(json);
 
-        //    int poolingRate = 2; // Hz
-        //    foreach (var nic in data.NIC)
-        //    {
-        //        nic.Rx = nic.Rx * 8 / poolingRate;
-        //        nic.Tx = nic.Tx * 8 / poolingRate;
-        //    }
+        foreach (var nic in data.NIC)
+        {
+            nic.Rx = nic.Rx * 8 / 2; //2 Hz
+            nic.Tx = nic.Tx * 8 / 2;
+        }
 
-        //    _context.Videos.Add(data);
-        //    _context.SaveChanges();
+        _context.Transcoder.Add(data);
+        _context.SaveChanges();
 
-        //    var returnData = _mapper.Map<VideoDto>(data);
+        var returnData = _mapper.Map<Transcoder>(data);
 
-        //    return returnData;
+        return returnData;
 
         throw new NotImplementedException();
     }

@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "RJ+AHBtA8MEAp5T7ihDqtgJU2odsWItMHAEJZgbsc5AK13itLzNChLJatBVLOtX9xUjZVt8cUNaO3COaXORwWw==",
+  "dgSpecHash": "CrBh0VpkLOM5JJET6PloIkEm0nuULavaw4Wq6Vu+jPx2fP17AdZvwpOZJha24T8B4PGtfliudS8IBZiK0DS7KQ==",
   "success": true,
   "projectFilePath": "D:\\Users\\WindowsPro\\Desktop\\Finance task test\\BitrateCalculator\\BitrateCalculator\\BitrateCalculator.csproj",
   "expectedPackageFiles": [
@@ -46,6 +46,7 @@
     "C:\\Users\\WindowsPro\\.nuget\\packages\\microsoft.win32.registry\\5.0.0\\microsoft.win32.registry.5.0.0.nupkg.sha512",
     "C:\\Users\\WindowsPro\\.nuget\\packages\\microsoft.win32.systemevents\\5.0.0\\microsoft.win32.systemevents.5.0.0.nupkg.sha512",
     "C:\\Users\\WindowsPro\\.nuget\\packages\\mono.texttemplating\\2.2.1\\mono.texttemplating.2.2.1.nupkg.sha512",
+    "C:\\Users\\WindowsPro\\.nuget\\packages\\newtonsoft.json\\13.0.3\\newtonsoft.json.13.0.3.nupkg.sha512",
     "C:\\Users\\WindowsPro\\.nuget\\packages\\swashbuckle.aspnetcore\\6.5.0\\swashbuckle.aspnetcore.6.5.0.nupkg.sha512",
     "C:\\Users\\WindowsPro\\.nuget\\packages\\swashbuckle.aspnetcore.swagger\\6.5.0\\swashbuckle.aspnetcore.swagger.6.5.0.nupkg.sha512",
     "C:\\Users\\WindowsPro\\.nuget\\packages\\swashbuckle.aspnetcore.swaggergen\\6.5.0\\swashbuckle.aspnetcore.swaggergen.6.5.0.nupkg.sha512",

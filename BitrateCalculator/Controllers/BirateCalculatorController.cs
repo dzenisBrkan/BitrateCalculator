@@ -21,5 +21,13 @@ namespace BitrateCalculator.Controllers
 
             return Ok(data);
         }
+
+        [HttpPost]
+        public IActionResult Post([FromBody] string json)
+        {
+            var data = _bitrate.UploadVideo(json);
+
+            return Ok(data);
+        }
     }
 }
