@@ -33,8 +33,8 @@ public class Bitrate : IBitrate
 
         foreach (var nic in data.NIC)
         {
-            nic.Rx = nic.Rx * 8 / 2; //2 Hz
-            nic.Tx = nic.Tx * 8 / 2;
+            nic.Rx = BitrateCalculator(nic.Rx); //receiving (Rx)
+            nic.Tx = BitrateCalculator(nic.Tx); //transmitting (Tx)
         }
 
         _context.Transcoder.Add(data);
@@ -45,5 +45,12 @@ public class Bitrate : IBitrate
         return returnData;
 
         throw new NotImplementedException();
+    }
+
+    public long BitrateCalculator(long bits)
+    {
+        //Number of Bits per Data Point (Rx) = Rx Bitrate / 2
+        //Number of Bits per Data Point (Tx) = Tx Bitrate / 2
+        return bits = bits / 2; 
     }
 }
