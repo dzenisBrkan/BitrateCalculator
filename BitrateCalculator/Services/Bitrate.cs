@@ -41,10 +41,7 @@ public class Bitrate : IBitrate
         _context.SaveChanges();
 
         var returnData = _mapper.Map<Transcoder>(data);
-
         return returnData;
-
-        throw new NotImplementedException();
     }
 
     public long BitrateCalculator(long bits)
